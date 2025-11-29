@@ -1,6 +1,6 @@
 # 👨‍💻 Icaro Costa | Portfolio v1
 
-![Cyberpunk Banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm95bnZ6Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1TVTh2RhtDbmzXe/giphy.gif)
+![Cyberpunk Banner]( https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjk4NThqaTdlbzZpc2hnb3BkbnR1dnJ6endja295M2hzajE1OXR5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fA7rLtaJDIWEzU57CT/giphy.gif)
 
 > *"Hello, friend. Welcome to the system."*
 
