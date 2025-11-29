@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍💻 Icaro Costa | Portfolio v1
 
-## Getting Started
+![Cyberpunk Banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm95bnZ6Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1TVTh2RhtDbmzXe/giphy.gif)
 
-First, run the development server:
+> *"Hello, friend. Welcome to the system."*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Um portfólio interativo e gamificado que mistura a estética **Cyberpunk/Hacker** com design moderno. Explore meus projetos, habilidades e experiência através de um terminal de linha de comando ou uma interface gráfica imersiva.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Modos de Navegação
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. 📟 Terminal Mode (Hacker)
+Para quem prefere a linha de comando. Digite comandos reais para navegar.
+- **Comandos**: `help`, `about`, `skills`, `projects`, `contact`, `game`.
+- **Features**: Histórico de comandos, autocompletar (mental), sons de teclado (removidos para silêncio total).
 
-## Learn More
+### 2. 🖥️ GUI Mode (Visual)
+Uma experiência visual rica e moderna.
+- **Design**: Cards flutuantes, efeito de vidro (glassmorphism), animações suaves.
+- **Matrix Rain**: Efeito de chuva de código digital exclusivo.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. 🕹️ Arcade Mode (Game Hub)
+Porque nem só de código vive o dev.
+- **Space Shooter**: Jogo de nave minimalista (Branco/Cinza).
+- **Snake Game**: O clássico da cobrinha (Verde/Vermelho).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+Este projeto foi construído com as melhores tecnologias do mercado:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Core**: ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+- **Estilo**: ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white)
+- **Ícones**: Lucide React
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👨‍🔬 Sobre Mim
+
+**Pesquisador no CTI Renato Archer** | **Robótica Educacional & Visão Computacional**
+
+Minha pesquisa é dedicada a capacitar professores da rede pública, desenvolvendo metodologias e ferramentas que unem tecnologia e educação para transformar a sala de aula. Sou proativo e focado em criar soluções práticas que tenham um impacto real.
+
+> *"Movido pela paixão de aprender e ensinar, acredito no poder da tecnologia como ponte para o conhecimento."*
+
+---
+
+## 🎮 Cheat Codes
+- **Konami Code**: `↑ ↑ ↓ ↓ ← → ← → B A` (Tente e veja o que acontece...)
+- **God Mode**: Acesso ilimitado (ativado pelo Konami Code).
+
+---
+
+<div align="center">
+  Made with 💻 and ☕ by <a href="https://github.com/Icaro-Costa">Icaro Costa</a>
+</div>
