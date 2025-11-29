@@ -1,9 +1,5 @@
 # 👨‍💻 Icaro Costa | Portfolio v1
 
-![Cyberpunk Banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm95bnZ6Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4Y3B4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1TVTh2RhtDbmzXe/giphy.gif)
-
-> *"Hello, friend. Welcome to the system."*
-
 Um portfólio interativo e gamificado que mistura a estética **Cyberpunk/Hacker** com design moderno. Explore meus projetos, habilidades e experiência através de um terminal de linha de comando ou uma interface gráfica imersiva.
 
 ---
