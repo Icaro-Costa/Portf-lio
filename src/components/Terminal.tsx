@@ -11,7 +11,7 @@ interface Command {
 }
 
 interface TerminalProps {
-    onSwitchMode?: (mode: "terminal" | "gui" | "game") => void;
+    onSwitchMode?: (mode: "terminal" | "gui" | "game" | null) => void;
 }
 
 export default function Terminal({ onSwitchMode }: TerminalProps) {
@@ -55,6 +55,7 @@ export default function Terminal({ onSwitchMode }: TerminalProps) {
                             <li>contact  - {t("contact_desc")}</li>
                             <li>lang     - {t("lang_desc")}</li>
                             <li>game     - {t("game_desc")}</li>
+                            <li>exit     - {t("exit_desc")}</li>
                             <li>clear    - {t("clear_desc")}</li>
                         </ul>
                     </div>
@@ -115,6 +116,12 @@ export default function Terminal({ onSwitchMode }: TerminalProps) {
                     output = "Starting Arcade Mode...";
                 } else {
                     output = "Game mode not available.";
+                }
+                break;
+            case "exit":
+                if (onSwitchMode) {
+                    onSwitchMode(null);
+                    output = "Exiting terminal mode...";
                 }
                 break;
             case "clear":

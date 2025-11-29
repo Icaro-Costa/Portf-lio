@@ -40,7 +40,7 @@ export default function Home() {
         ) : modeSelected === "game" ? (
           <GameHub onBack={() => setModeSelected(null)} />
         ) : (
-          <GUIHome />
+          <GUIHome onBack={() => setModeSelected(null)} />
         )}
       </main>
     </LanguageProvider>

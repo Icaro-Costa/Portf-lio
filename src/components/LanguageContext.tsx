@@ -51,6 +51,7 @@ export const translations = {
         music_desc: "Toggle background music (on/off)",
         game_mode: "Arcade Mode",
         game_desc: "Play Space Shooter",
+        exit_desc: "Exit to main menu",
     },
     pt: {
         welcome: "Bem-vindo ao sistema.",
@@ -90,6 +91,7 @@ export const translations = {
         music_desc: "Ligar/Desligar música de fundo",
         game_mode: "Modo Arcade",
         game_desc: "Jogar Space Shooter",
+        exit_desc: "Sair para o menu principal",
     },
 };
 

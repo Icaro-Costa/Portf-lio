@@ -1,11 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { User, Code, Briefcase, Mail, ExternalLink } from "lucide-react";
+import { User, Code, Briefcase, Mail, ExternalLink, ArrowLeft } from "lucide-react";
 import { useLanguage } from "./LanguageContext";
 import MatrixRain from "./MatrixRain";
 
-export default function GUIHome() {
+// Componente principal da interface gráfica
+interface GUIHomeProps {
+    onBack?: () => void;
+}
+
+export default function GUIHome({ onBack }: GUIHomeProps) {
     const { t } = useLanguage();
     // const { playHover } = useSoundManager(); // Removed SFX
 
@@ -116,7 +121,16 @@ export default function GUIHome() {
         <div className="min-h-screen w-full p-8 overflow-y-auto font-sans text-gray-200 relative">
             <MatrixRain />
             <div className="relative z-10">
-                <header className="mb-12 text-center">
+                {onBack && (
+                    <button
+                        onClick={onBack}
+                        className="absolute top-0 left-0 flex items-center gap-2 text-gray-400 hover:text-white transition-colors z-50 bg-black/50 p-2 rounded"
+                    >
+                        <ArrowLeft size={24} />
+                        <span className="text-sm">Exit GUI</span>
+                    </button>
+                )}
+                <header className="mb-12 text-center mt-8">
                     <h1 className="text-4xl md:text-6xl font-bold text-neon-blue mb-4">Icaro Costa</h1>
                     <p className="text-xl text-gray-400">Full Stack Developer</p>
                 </header>
