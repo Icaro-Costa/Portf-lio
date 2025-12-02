@@ -52,6 +52,8 @@ export const translations = {
         game_mode: "Arcade Mode",
         game_desc: "Play Space Shooter",
         exit_desc: "Exit to main menu",
+        secret_informant: "Secret Informant",
+        chat_with_ai: "Chat with AI",
     },
     pt: {
         welcome: "Bem-vindo ao sistema.",
@@ -92,6 +94,8 @@ export const translations = {
         game_mode: "Modo Arcade",
         game_desc: "Jogar Space Shooter",
         exit_desc: "Sair para o menu principal",
+        secret_informant: "Informante Secreto",
+        chat_with_ai: "Conversar com IA",
     },
 };
 

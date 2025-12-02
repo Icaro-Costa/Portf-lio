@@ -17,6 +17,9 @@ const pressStart2P = Press_Start_2P({
 export const metadata: Metadata = {
   title: "Icaro Costa | Cyberpunk Portfolio",
   description: "A retro-futuristic portfolio inspired by fsociety and 8-bit arcades.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({

@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.*
+rag_agent/venv/
+rag_agent/chroma_db/
 .yarn/*
 !.yarn/patches
 !.yarn/plugins

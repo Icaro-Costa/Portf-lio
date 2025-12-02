@@ -1,0 +1,20 @@
+Perfil Profissional - Icaro Costa
+
+Resumo:
+Full Stack Developer e Pesquisador. Apaixonado por tecnologia e educação.
+
+Experiência:
+- Pesquisador @ CTI Renato Archer
+  Foco: Robótica Educacional e Visão Computacional.
+  Desenvolvimento de ferramentas para professores da rede pública.
+
+Educação:
+- [Inserir Formação Aqui]
+
+Certificações:
+- [Inserir Certificações Aqui]
+
+Contato:
+Email: icaro.developerr@gmail.com
+GitHub: github.com/Icaro-Costa
+LinkedIn: linkedin.com/in/icaro-costa-ic

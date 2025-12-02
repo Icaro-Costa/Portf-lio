@@ -1,0 +1,22 @@
+Sobre Mim:
+Pesquisador no CTI Renato Archer, com foco em Robótica Educacional e Visão Computacional.
+Minha pesquisa é dedicada a capacitar professores da rede pública, desenvolvendo metodologias e ferramentas que unem tecnologia e educação para transformar a sala de aula.
+Sou proativo e focado em criar soluções práticas que tenham um impacto real.
+Movido pela paixão de aprender e ensinar, acredito no poder da tecnologia como ponte para o conhecimento.
+
+Hobbies:
+- Programação (obviamente!)
+- Robótica
+- Jogos retrô
+- Música (tocar instrumentos)
+
+Habilidades Técnicas:
+- Linguagens: Java, Python, TypeScript, JavaScript
+- Frameworks: Spring Boot, React, Next.js, Tailwind CSS
+- Banco de Dados: PostgreSQL
+- Outros: Azure OpenAI, Git, Docker
+
+Projetos Recentes:
+1. Java Akademika: Plataforma estudantil com IA.
+2. WoodStock: Gerente de Estoque CLI.
+3. Portfólio v1: Este site!

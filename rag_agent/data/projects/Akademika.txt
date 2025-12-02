@@ -1,0 +1,4 @@
+Projeto: Java Akademika
+Tecnologias: Java, Spring Boot, React
+Descrição: Plataforma completa para gestão escolar. Inclui módulos para alunos, professores e coordenação.
+Destaque: Integração com IA para gerar resumos de aulas automaticamente.

@@ -1,0 +1,4 @@
+Projeto: Sistema de Controle de Estoque (WoodStock)
+Tecnologias: Python, JSON
+Descrição: Um sistema CLI robusto para gerenciamento de estoque. Permite cadastro de produtos, controle de validade e relatórios automáticos.
+Destaque: Algoritmo de previsão de perdas baseado na validade.

@@ -1,9 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { User, Code, Briefcase, Mail, ExternalLink, ArrowLeft } from "lucide-react";
+import { User, Code, Briefcase, Mail, ExternalLink, ArrowLeft, Terminal, Ghost } from "lucide-react";
 import { useLanguage } from "./LanguageContext";
 import MatrixRain from "./MatrixRain";
+import BreakingScreen from './BreakingScreen';
+import { useState } from "react";
 
 // Componente principal da interface gráfica
 interface GUIHomeProps {
@@ -12,7 +14,19 @@ interface GUIHomeProps {
 
 export default function GUIHome({ onBack }: GUIHomeProps) {
     const { t } = useLanguage();
+    const [showBreaking, setShowBreaking] = useState(false);
     // const { playHover } = useSoundManager(); // Removed SFX
+
+    const handleSecretClick = () => {
+        setShowBreaking(true);
+    };
+
+    const handleAnimationComplete = () => {
+        // Open in new tab to avoid port issues and "infinite loading" if port is wrong
+        const agentUrl = process.env.NEXT_PUBLIC_AGENT_URL || "http://localhost:8506";
+        window.open(agentUrl, "_blank");
+        setShowBreaking(false); // Reset state
+    };
 
     const sections = [
         {
@@ -132,7 +146,19 @@ export default function GUIHome({ onBack }: GUIHomeProps) {
                 )}
                 <header className="mb-12 text-center mt-8">
                     <h1 className="text-4xl md:text-6xl font-bold text-neon-blue mb-4">Icaro Costa</h1>
-                    <p className="text-xl text-gray-400">Full Stack Developer</p>
+                    <p className="text-xl text-gray-400 mb-6">Full Stack Developer</p>
+
+                    <button
+                        onClick={() => window.open("http://localhost:8501", "_blank")}
+                        className="group relative inline-flex items-center justify-center px-6 py-2 text-sm font-bold text-white transition-all duration-200 bg-gray-900 font-mono border border-neon-green/50 rounded-md hover:border-neon-green hover:shadow-[0_0_15px_rgba(0,255,65,0.3)]"
+                    >
+                        <span className="mr-2">🕵️</span>
+                        {t("secret_informant")}
+                        <span className="absolute -top-1 -right-1 flex h-3 w-3">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon-green opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-3 w-3 bg-neon-green"></span>
+                        </span>
+                    </button>
                 </header>
 
                 <div className="max-w-4xl mx-auto grid gap-12 pb-20">

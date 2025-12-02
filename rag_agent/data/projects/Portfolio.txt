@@ -1,0 +1,4 @@
+Projeto: Portfolio V1
+Tecnologias: Next.js, Tailwind, TypeScript
+Descrição: Site pessoal com tema Cyberpunk/Hacker.
+Destaque: Terminal interativo e Agente RAG integrado.

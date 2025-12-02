@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import SkillsBar from "./SkillsBar";
 import { useLanguage } from "./LanguageContext";
+import BreakingScreen from './BreakingScreen';
 
 interface Command {
     input: string;
@@ -18,6 +19,7 @@ export default function Terminal({ onSwitchMode }: TerminalProps) {
     const { t, setLanguage, language } = useLanguage();
     const [input, setInput] = useState("");
     const [history, setHistory] = useState<Command[]>([]);
+    const [showBreaking, setShowBreaking] = useState(false);
     const inputRef = useRef<HTMLInputElement>(null);
     const bottomRef = useRef<HTMLDivElement>(null);
 
@@ -34,6 +36,16 @@ export default function Terminal({ onSwitchMode }: TerminalProps) {
     useEffect(() => {
         bottomRef.current?.scrollIntoView({ behavior: "smooth" });
     }, [history]);
+
+    const focusInput = () => {
+        inputRef.current?.focus();
+    };
+
+    const handleAnimationComplete = () => {
+        const agentUrl = process.env.NEXT_PUBLIC_AGENT_URL || "http://localhost:8506";
+        window.open(agentUrl, "_blank");
+        setShowBreaking(false);
+    };
 
     const handleCommand = (cmd: string) => {
         const trimmedCmd = cmd.trim().toLowerCase();
@@ -123,6 +135,10 @@ export default function Terminal({ onSwitchMode }: TerminalProps) {
                     onSwitchMode(null);
                     output = "Exiting terminal mode...";
                 }
+                break;
+            case "secret":
+                window.open("http://localhost:8501", "_blank");
+                output = "Accessing secure channel...";
                 break;
             case "clear":
                 setHistory([]);
